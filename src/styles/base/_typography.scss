@@ -1,0 +1,32 @@
+@use '../utils/' as *;
+
+// General typography
+body {
+  font-family: $ff-base;
+  font-size: $fs-base;
+}
+
+// Heading typography
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+h1 {
+  font-size: $fs-h1;
+}
+
+h2 {
+  font-size: $fs-h2;
+}
+
+h3 {
+  font-size: $fs-h3;
+}
+
+h4 {
+  font-size: $fs-h4;
+}
