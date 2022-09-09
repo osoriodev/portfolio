@@ -1,0 +1,23 @@
+@use '../../styles/utils' as *;
+
+:root {
+  --clr-primary: #FF4C60;
+  --clr-secondary: #FFD15C;
+  --clr-tertiary: #6C6CE5;
+  --clr-ntrl-max: #FFFFFF;
+  --clr-ntrl-min: #000000;
+}
+
+.light {
+  --clr-heading: $dark-200;
+  --clr-base: $dark-100;
+  --clr-border: $helper-light;
+  --clr-bg: $light;
+}
+
+.dark {
+  --clr-heading: var(--clr-ntrl-max);
+  --clr-base: var(--clr-ntrl-max);
+  --clr-border: $helper-dark;
+  --clr-bg: $dark-200;
+}

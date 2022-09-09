@@ -1,18 +1,13 @@
 // Colors
-$clr-primary: #FF4C60;
-$clr-secondary: #FFD15C;
-$clr-tertiary: #6C6CE5;
 
-$clr-base: #353353;
-$clr-base-dk: #302F4E;
-$clr-base-lt: #454360;
+$light: #F9F9FF;
 
-$clr-helper: #F9F9FF;
-$clr-helper-dk: rgba(0, 0, 0, .1);
-$clr-helper-lt: rgba(255, 255, 255, .1);
+$dark-100: #454360;
+$dark-200: #353353;
+$dark-300: #302F4E;
 
-$clr-ntrl-max: #FFF;
-$clr-ntrl-min: #000;
+$helper-light: rgba(0, 0, 0, .1);
+$helper-dark: rgba(255, 255, 255, .1);
 
 // Font family
 $ff-base: 'Rubik', sans-serif;
