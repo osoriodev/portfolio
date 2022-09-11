@@ -1,7 +1,13 @@
+import Header from '../Header';
+import Hero from '../Hero';
+
 export default function App() {
   return (
-    <div>
-      <h1>Test</h1>
-    </div>
+    <>
+      <Header />
+      <main>
+        <Hero />
+      </main>
+    </>
   );
 }

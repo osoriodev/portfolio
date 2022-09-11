@@ -11,6 +11,7 @@
 .light {
   --clr-heading: #353353;
   --clr-base: #454360;
+  --clr-link: var(--clr-primary);
   --clr-border: rgba(0, 0, 0, .1);
   --clr-bg: #F9F9FF;
 }
@@ -18,6 +19,7 @@
 .dark {
   --clr-heading: var(--clr-ntrl-max);
   --clr-base: var(--clr-ntrl-max);
+  --clr-link: var(--clr-secondary);
   --clr-border: rgba(255, 255, 255, .1);
   --clr-bg: #353353;
 }
