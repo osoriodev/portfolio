@@ -9,15 +9,15 @@
 }
 
 .light {
-  --clr-heading: $dark-200;
-  --clr-base: $dark-100;
-  --clr-border: $helper-light;
-  --clr-bg: $light;
+  --clr-heading: #353353;
+  --clr-base: #454360;
+  --clr-border: rgba(0, 0, 0, .1);
+  --clr-bg: #F9F9FF;
 }
 
 .dark {
   --clr-heading: var(--clr-ntrl-max);
   --clr-base: var(--clr-ntrl-max);
-  --clr-border: $helper-dark;
-  --clr-bg: $dark-200;
+  --clr-border: rgba(255, 255, 255, .1);
+  --clr-bg: #353353;
 }
